@@ -42,16 +42,16 @@ while True:
             segundo_numero = float (segundo_numero)
             
             somar, subtrair, dividir, mutiplicar = operacoes(primeiro_numero, segundo_numero)
-            
-            if opcao == "1":
-                print(f"O Resultado da soma entre {primeiro_numero} e {segundo_numero} é = {somar:.2f}")
-            elif opcao == "2":
-                print(f"O Resultado da subtração entre {primeiro_numero} e {segundo_numero} é = {subtrair:.2f}")
-            elif opcao == "3":
-                print(f"O Resultado da Mutiplicação entre {primeiro_numero} e {segundo_numero} é = {mutiplicar:.2f}")
-            elif opcao == "4":
-                print(f"O Resultado da Divisão entre {primeiro_numero} e {segundo_numero} é = {dividir:.2f}")
         except:
-            print("Entrada Invalida!")
+            print("Entrada Invalida")   
             continue
+        if opcao == "1":
+            print(f"O Resultado da soma entre {primeiro_numero} e {segundo_numero} é = {somar:.2f}")
+        elif opcao == "2":
+            print(f"O Resultado da subtração entre {primeiro_numero} e {segundo_numero} é = {subtrair:.2f}")
+        elif opcao == "3":
+            print(f"O Resultado da Mutiplicação entre {primeiro_numero} e {segundo_numero} é = {mutiplicar:.2f}")
+        elif opcao == "4":
+            print(f"O Resultado da Divisão entre {primeiro_numero} e {segundo_numero} é = {dividir:.2f}")
+            
 
